@@ -26,15 +26,15 @@ body {
   color: black;
   font-family: "Josefin Sans";
   font-weight: 300;
-  font-size: 18px;
+  font-size: 12px;
   text-decoration: none;
-  margin: 3% 8%;
+  margin: 0.5% 12%;
   max-width: 95%;
   /* margin-right: 3rem; */
 }
 
 #brand-title {
-  font-size: 28px;
+  font-size: 21px;
   color: black;
   font-weight: 300;
   /* margin: 3rem; */
@@ -125,8 +125,9 @@ body {
 /* Home */
 
 .hero-container {
-  max-width: 90%;
+  max-width: 67%;
   height: auto;
+  max-height: 850px;
   /* max-height: 950px; */
   margin: auto;
 }
@@ -135,7 +136,11 @@ body {
   height: auto;
   max-height: 850px;
   width: 100%;
-  border-radius: 10px;
+}
+
+.video-background {
+  margin: auto;
+  width: 80%;
 }
 
 /* Work */
