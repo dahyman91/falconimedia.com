@@ -143,6 +143,50 @@ body {
   width: 80%;
 }
 
+.cards {
+  max-width: 80%;
+  margin: auto;
+}
+
+.zlhomeAnimate {
+  padding: auto;
+}
+
+.zlhomeAnimate .zlhomeModule,
+.zlhomeAnimate2 .zlbuttom {
+  transition: opacity 0.6s, transform 0.6s;
+  transform: translateY(40px);
+  opacity: 0;
+  margin: auto;
+}
+.zlhomeAnimate .zlhomeModule:nth-of-type(1) {
+  transition-delay: 0.2s;
+}
+.zlhomeAnimate .zlhomeModule:nth-of-type(2) {
+  transition-delay: 0.4s;
+}
+.zlhomeAnimate .zlhomeModule:nth-of-type(3) {
+  transition-delay: 0.5s;
+}
+.zlhomeAnimate .zlhomeModule:nth-of-type(4) {
+  transition-delay: 0.6s;
+}
+.zlhomeAnimate .zlhomeModule:nth-of-type(5) {
+  transition-delay: 0.65s;
+}
+
+.zlhomeAnimate2 h1.zlbuttom {
+  transition-delay: 0.3s;
+}
+
+.zlhomeAnimate2 h3.zlbuttom {
+  transition-delay: 0.38s;
+}
+.zlhomeAnimate.visible .zlhomeModule,
+.zlhomeAnimate2.visible .zlbuttom {
+  transform: translateY(0);
+  opacity: 1;
+}
 /* Work */
 
 /* About */
