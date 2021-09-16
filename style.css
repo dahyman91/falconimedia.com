@@ -202,29 +202,29 @@ img {
 }
 
 .zlhomeAnimate .zlhomeModule:nth-of-type(1) {
-  transition-delay: 0.3s;
-}
-.zlhomeAnimate .zlhomeModule:nth-of-type(2) {
-  transition-delay: 0.5s;
-}
-.zlhomeAnimate .zlhomeModule:nth-of-type(3) {
   transition-delay: 0.6s;
 }
+.zlhomeAnimate .zlhomeModule:nth-of-type(2) {
+  transition-delay: 0.3s;
+}
+.zlhomeAnimate .zlhomeModule:nth-of-type(3) {
+  transition-delay: 0.4s;
+}
 .zlhomeAnimate .zlhomeModule:nth-of-type(4) {
-  transition-delay: 0.7s;
+  transition-delay: 0.5s;
 }
 .zlhomeAnimate .zlhomeModule:nth-of-type(5) {
-  transition-delay: 0.8s;
+  transition-delay: 0.6s;
 }
 .zlhomeAnimate .zlhomeModule:nth-of-type(6) {
-  transition-delay: 0.9s;
+  transition-delay: 0.7s;
 }
 .zlhomeAnimate .zlhomeModule:nth-of-type(7) {
-  transition-delay: 1s;
+  transition-delay: 0.8s;
 }
 
 .zlhomeAnimate2 h1.zlbuttom {
-  transition-delay: 0.3s;
+  transition-delay: 0.8s;
 }
 
 .zlhomeAnimate2 h3.zlbuttom {
