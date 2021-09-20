@@ -48,6 +48,7 @@ function copyToClipboard(text) {
   document.execCommand("copy");
   document.body.removeChild(dummy);
 }
+
 $(function () {
   var row = $(".zlhomeAnimate");
   var $window = $(window);
@@ -93,3 +94,54 @@ $(function () {
     // }
   });
 });
+
+// Scroll Reveal
+const options = {
+  delay: 500,
+  distance: "0px",
+  duration: 1000,
+  easing: "cubic-bezier(0.5, 0, 0, 1)",
+  interval: 0,
+  opacity: 0,
+  origin: "bottom",
+  rotate: {
+    x: 2,
+    y: 0,
+    z: 0,
+  },
+  scale: 1,
+  cleanup: true,
+  container: document.documentElement,
+  desktop: true,
+  mobile: true,
+  reset: true,
+  useDelay: "always",
+  viewFactor: 0.0,
+  viewOffset: {
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0,
+  },
+  afterReset: function (el) {},
+  afterReveal: function (el) {},
+  beforeReset: function (el) {},
+  beforeReveal: function (el) {},
+};
+
+ScrollReveal().reveal(".headline", options);
+
+// FitVitds Class
+
+const heroVid = document.querySelector(".video-container-main");
+console.log(heroVid);
+
+let windowSize = document.documentElement.clientWidth;
+
+if (windowSize < 800) {
+  heroVid.classList.add("fitvidsignore");
+}
+
+window.onresize = function () {
+  location.reload();
+};

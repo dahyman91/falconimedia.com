@@ -16,7 +16,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #eee;
+  background-color: grey;
 }
 
 h1 {
@@ -135,6 +135,20 @@ h1 {
   }
 }
 
+/* Footer */
+
+footer {
+  display: flex;
+  border-top: 1px solid black;
+}
+
+footer h6 {
+  font-family: "Josefin Sans";
+  margin: auto;
+  padding: 5vh;
+  font-size: 12px;
+}
+
 /* Home */
 
 .hero-container {
@@ -156,6 +170,40 @@ h1 {
   width: 80%;
 }
 
+@media (max-width: 800px) {
+  .mobile-video-container-main {
+  overflow: hidden;
+  /* object-fit: cover; */
+  max-width: 105vw;
+  height: 60vh;
+  }
+
+  .mobile-video-background { 
+  width: 100%;
+  position: relative;
+  /* overflow-x: hidden; */
+  top: 50%;
+  transform: translate(-140%, -50%); 
+  scroll-behavior: initial;
+  }
+
+  body{
+  overflow-x: hidden;
+   }
+
+
+} 
+
+
+
+.business-card {
+  border: 1px solid black;
+  height: 15vh;
+  width: 15vh
+  margin: 3vh;
+
+}
+
 .partners-title {
   padding-top: 5vh;
   padding-bottom: 1vh;
@@ -163,8 +211,9 @@ h1 {
 }
 
 .cards {
-  max-width: 80%;
+  width: 80%;
   margin: auto;
+  padding: 5vh
 }
 
 .zlhomeAnimate {
@@ -223,9 +272,9 @@ img {
   transition-delay: 0.8s;
 }
 
-.zlhomeAnimate2 h1.zlbuttom {
+/* .zlhomeAnimate2 h1.zlbuttom {
   transition-delay: 0.8s;
-}
+} */
 
 .zlhomeAnimate2 h3.zlbuttom {
   transition-delay: 0.38s;
@@ -235,6 +284,72 @@ img {
   transform: translateY(0);
   opacity: 1;
 }
+
+.work-link-container {
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+  margin: auto;
+  font-family: "Josefin Sans";
+  display: flex;
+}
+
+.work-link {
+  text-decoration: none;
+  background-color: white;
+  transition: color 0.5s, background-color 0.5s, border-color 0.5s;
+  font-family: "Josefin Sans";
+  margin: auto;
+  align-self: center;
+}
+
+.featured-link-container {
+  width: 75%;
+  height: 5vh;
+  background-color: white;
+  margin: auto;
+  font-family: "Josefin Sans";
+  display: flex;
+}
+
+.link-description-container {
+  width: 75%;
+  height: 20vh;
+  background-color: white;
+  margin: auto;
+  font-family: "Josefin Sans";
+  display: flex;
+}
+
+.brand-description {
+  text-decoration: none;
+  background-color: white;
+  transition: color 0.5s, background-color 0.5s, border-color 0.5s;
+  font-family: "Josefin Sans";
+  margin: auto;
+  align-self: center;
+  font-size: 20px;
+}
+
+.featured-link {
+  text-decoration: none;
+  background-color: white;
+  transition: color 0.5s, background-color 0.5s, border-color 0.5s;
+  font-family: "Josefin Sans";
+  margin: auto;
+  align-self: center;
+  height:5vh
+}
+
+#featured-link {
+  text-decoration: none;
+  color: black;
+}
+
+#featured-link:hover{
+  background-color: ;
+}
+
 /* Work */
 
 /* Featured */
@@ -243,18 +358,68 @@ img {
 }
 
 .featured-video {
-  width: 80%;
-  margin: auto;
+  width: 60%;
 }
+
+.featured-vid-text {
+  padding-top: 5vh;
+}
+.other-info{
+  padding: 5vh;
+  width:90%;
+  margin: auto
+}
+
+.featured-video-title{
+  width: 100%;
+  text-align: center;
+}
+
+.feature-description{
+  text-align: left;
+}
+
 /* About */
-.about-container {
-  width: 90%;
-  display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
-}
+/* .about-container {
+  max-height: 40vh;
+} */
+
 #about-img {
-  min-width: 315px;
+  height: 300px;
+  width: auto;
+  margin: auto;
+  display: flex;
 }
+
+.about{
+  vertical-align: center;
+}
+
+.clients-container {
+  margin: auto;
+  display: flex;
+}
+
+h6{
+  width: 100%;
+  text-align: center;
+}
+
+ul{
+  font-size: 1.5vh;
+}
+
+
+/* About */
+
+.client-list{
+  list-style-type: none;
+}
+
+.clients-container{
+  display: inline;
+}
+/* Contact */
 
 .contact-container {
   width: 80%;
