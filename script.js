@@ -142,6 +142,6 @@ if (windowSize < 800) {
   heroVid.classList.add("fitvidsignore");
 }
 
-window.onresize = function () {
-  location.reload();
-};
+// window.onresize = function () {
+//   location.reload();
+// };
