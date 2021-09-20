@@ -172,36 +172,31 @@ footer h6 {
 
 @media (max-width: 800px) {
   .mobile-video-container-main {
-  overflow: hidden;
-  /* object-fit: cover; */
-  max-width: 105vw;
-  height: 60vh;
+    overflow: hidden;
+    /* object-fit: cover; */
+    max-width: 105vw;
+    height: 80vh;
   }
 
-  .mobile-video-background { 
-  width: 100%;
-  position: relative;
-  /* overflow-x: hidden; */
-  top: 50%;
-  transform: translate(-140%, -50%); 
-  scroll-behavior: initial;
+  .mobile-video-background {
+    width: 100%;
+    position: relative;
+    /* overflow-x: hidden; */
+    top: 50%;
+    transform: translate(-140%, -50%);
+    scroll-behavior: initial;
   }
 
-  body{
-  overflow-x: hidden;
-   }
-
-
-} 
-
-
+  body {
+    overflow-x: hidden;
+  }
+}
 
 .business-card {
   border: 1px solid black;
   height: 15vh;
-  width: 15vh
+  width: 15vh;
   margin: 3vh;
-
 }
 
 .partners-title {
@@ -213,7 +208,7 @@ footer h6 {
 .cards {
   width: 80%;
   margin: auto;
-  padding: 5vh
+  padding: 5vh;
 }
 
 .zlhomeAnimate {
@@ -338,7 +333,7 @@ img {
   font-family: "Josefin Sans";
   margin: auto;
   align-self: center;
-  height:5vh
+  height: 5vh;
 }
 
 #featured-link {
@@ -346,7 +341,7 @@ img {
   color: black;
 }
 
-#featured-link:hover{
+#featured-link:hover {
   background-color: ;
 }
 
@@ -364,18 +359,18 @@ img {
 .featured-vid-text {
   padding-top: 5vh;
 }
-.other-info{
+.other-info {
   padding: 5vh;
-  width:90%;
-  margin: auto
+  width: 90%;
+  margin: auto;
 }
 
-.featured-video-title{
+.featured-video-title {
   width: 100%;
   text-align: center;
 }
 
-.feature-description{
+.feature-description {
   text-align: left;
 }
 
@@ -391,7 +386,7 @@ img {
   display: flex;
 }
 
-.about{
+.about {
   vertical-align: center;
 }
 
@@ -400,23 +395,22 @@ img {
   display: flex;
 }
 
-h6{
+h6 {
   width: 100%;
   text-align: center;
 }
 
-ul{
+ul {
   font-size: 1.5vh;
 }
 
-
 /* About */
 
-.client-list{
+.client-list {
   list-style-type: none;
 }
 
-.clients-container{
+.clients-container {
   display: inline;
 }
 /* Contact */
