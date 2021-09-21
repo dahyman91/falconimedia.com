@@ -25,6 +25,7 @@
       sizes="16x16"
       href="./images/favicon_io/favicon-32x32.png"
     />
+
     <link
       href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento"
       rel="stylesheet"
@@ -35,6 +36,8 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -46,7 +49,7 @@
     <title>Falconi Media</title>
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar headline">
       <div class="brand-title">
         <a id="brand-title" href="index.html">FALCONI MEDIA</a>
       </div>
@@ -65,24 +68,33 @@
       </div>
     </nav>
     <main>
-      <article class="about-container row mx-5">
-        <div class="about col-lg-8">
-          <h6>About</h6>
-          <p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="about d-flex justify-content-center col-12">
+            <h6>About</h6>
+          </div>
+        <div class="row">
+          <div class=" d-flex justify-content-center col-12">
+            <p>
             Falconi Media is a full service video production company based in
             New York and available internationally.
-          </p>
-
-          <div class="featured-link-container headline">
-            <button class="featured-link">
-              <a id="featured-link" href="./contact.html">Contact Us</a>
+            </p>
+          </div>
+        </div>
+        <div class="row featured-link-container">
+          <div class=" col-12 d-flex justify-content-center pb-3">
+            <button class="featured-link"> <a id="featured-link" href="./contact.html">Contact Us</a>
             </button>
           </div>
         </div>
-        <div class="col-lg-4">
-          <img id="about-img" src="/images/sam.JPG" alt="" />
+        <div class="row-8 d-flex justify-content-center">
+          <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+            <img class="img-fluid" id="about-img" src="/images/sam.JPG" alt="" />
         </div>
-      </article>
+        </div>
+
+
+          
 
       <div class="cards headline">
         <div class="row zlhomeAnimate">
@@ -135,8 +147,17 @@
           <!--col-2-->
         </div>
       </div>
+      </div>
     </main>
+    <footer class="headline">
+      <h6>© Falconi Media 2021</h6>
+    </footer>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
   <script src="script.js"></script>
   <script>
     $(document).ready(function () {

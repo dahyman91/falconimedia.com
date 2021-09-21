@@ -1,5 +1,3 @@
-/*
-
 * {
   box-sizing: border-box;
   text-decoration: none;
@@ -18,7 +16,9 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-color: grey; */
+  font-family: 'Oswald', sans-serif !important;
+  font-weight: 100;
+
 }
 
 h1 {
@@ -151,6 +151,8 @@ footer h6 {
   font-size: 12px;
 }
 
+
+
 /* Home */
 
 .hero-container {
@@ -172,15 +174,45 @@ footer h6 {
   width: 80%;
 }
 
+@media (min-width: 800px) {
+  #featured-link {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  transition: color 0.5s, background-color 0.5s, border-color 0.5s;
+  font-family: "Josefin Sans";
+  margin: auto;
+  align-self: center;
+  height: 5vh;
+}
+.featured-link-container {
+  width: 100%;
+  height: 5vh;
+  background-color: white;
+  margin: auto;
+  font-family: "Josefin Sans";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-description{
+  font-size: 1.5rem;
+  padding: 3rem;
+  font-family: "Josefin Sans";
+  width: 100%
+}
+
+}
+
 @media (max-width: 800px) {
-  .mobile-video-container-main {
+  .video-container-main {
     overflow: hidden;
     /* object-fit: cover; */
     max-width: 105vw;
     height: 80vh;
   }
 
-  .mobile-video-background {
+  .video-background {
     width: 100%;
     position: relative;
     /* overflow-x: hidden; */
@@ -300,6 +332,10 @@ img {
 }
 
 .brand-description {
+  
+}
+
+h6 {
   text-decoration: none;
   background-color: white;
   transition: color 0.5s, background-color 0.5s, border-color 0.5s;
@@ -309,7 +345,7 @@ img {
   font-size: 20px;
 }
 
-.featured-link {
+#featured-link {
   text-decoration: none;
   background-color: white;
   transition: color 0.5s, background-color 0.5s, border-color 0.5s;
@@ -378,6 +414,8 @@ ul {
 }
 /* Contact */
 
+
+@media (max-width: 0px){
 .contact-container {
   width: 80%;
   margin: auto;
@@ -460,4 +498,6 @@ ul {
   opacity: 1;
   opacity: calc(var(--visible-y) * var(--visible-y));
   transform: scale(calc(0.5 + calc(var(--visible-y) * 0.5)));
+}
+
 }
