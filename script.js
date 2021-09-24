@@ -14,8 +14,8 @@ $(document).ready(function () {
   $("a[href^=mailto]").addClass("mailto-link");
 
   const mailto = $(".mailto-link");
-  const messageCopy = "Click to Copy";
-  const messageSuccess = "Copied!";
+  const messageCopy = "";
+  const messageSuccess = "<br>Copied to Clipboard</br>";
 
   mailto.append('<span class="mailto-message"></span>');
   $(".mailto-message").append(messageCopy);
@@ -34,7 +34,7 @@ $(document).ready(function () {
     $(".mailto-message").empty().append(messageSuccess);
     setTimeout(function () {
       $(".mailto-message").empty().append(messageCopy);
-    }, 2000);
+    }, 10000);
   });
 });
 
