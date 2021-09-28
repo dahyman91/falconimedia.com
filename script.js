@@ -97,9 +97,9 @@ $(function () {
 
 // Scroll Reveal
 const options = {
-  delay: 500,
+  delay: 0,
   distance: "0px",
-  duration: 1000,
+  duration: 800,
   easing: "cubic-bezier(0.5, 0, 0, 1)",
   interval: 0,
   opacity: 0,
