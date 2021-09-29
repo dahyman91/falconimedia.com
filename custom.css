@@ -220,8 +220,8 @@ footer h6 {
 
 /* About */
 
-#about-img {
-  height: 300px;
+#about-img img {
+  /* height: 100px; */
   width: auto;
   margin: auto;
   display: flex;
