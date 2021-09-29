@@ -89,6 +89,13 @@ h1 {
 }
 
 @media (max-width: 800px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
   .brand-title {
     position: relative;
     top: 1rem;
@@ -106,6 +113,7 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     display: flex;
+    padding-bottom: 5vh;
     /* align-items: center; */
   }
 
