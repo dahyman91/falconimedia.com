@@ -192,15 +192,30 @@ footer h6 {
 
 .vid-text {
   color: white;
-  font-weight: 1000;
-  /* display: flex; */
+
   position: absolute;
-  top: 50vh;
-  left: 25%;
-  right: 25%;
+  top: 60vh;
+  left: 15%;
+  right: 15%;
   text-align: center;
-  /* background-color: black; */
   border-radius: 10%;
+}
+
+.eye-candy {
+  color: red;
+}
+
+.play-btn {
+  position: absolute;
+  top: 65vh;
+  left: 15%;
+  right: 15%;
+  text-align: center;
+}
+
+.play-btn img {
+  width: 70px;
+  height: auto;
 }
 
 .mobile-vid-text {
@@ -229,8 +244,16 @@ footer h6 {
     left: 5%;
     right: 5%;
     text-align: center;
-    /* background-color: black; */
-    border-radius: 10%;
+    width: 90%;
+  }
+
+  .play-btn {
+    /* max-height: 200px; */
+  }
+
+  .play-btn img {
+    max-height: 100px;
+    width: auto;
   }
 
   .desktop-video {
