@@ -34,6 +34,7 @@
     "make-dir": "^3.1.0",
     "minimatch": "^3.0.4",
     "miniraf": "^1.0.0",
+    "netlify": "^9.0.0",
     "object-assign": "^4.1.1",
     "once": "^1.4.0",
     "p-limit": "^2.3.0",
@@ -67,5 +68,6 @@
   "bugs": {
     "url": "https://github.com/dahyman91/falconimedia.com/issues"
   },
-  "homepage": "https://github.com/dahyman91/falconimedia.com#readme"
+  "homepage": "https://github.com/dahyman91/falconimedia.com#readme",
+  "devDependencies": {}
 }
