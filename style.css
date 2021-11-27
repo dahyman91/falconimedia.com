@@ -1,24 +1,7 @@
-/*
-
-* {
-  box-sizing: border-box;
-  text-decoration: none;
-  /* border: 1px solid red; */
-/* } */
-
-/* 
-/* main {
-  background: white;
-  height: 100vh;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 1rem;
-} */
-
 body {
   margin: 0;
   padding: 0;
-  /* background-color: grey; */
+
 }
 
 h1 {
@@ -52,7 +35,6 @@ h1 {
   font-size: 21px;
   color: black;
   font-weight: 300;
-  /* margin: 3rem; */
   text-decoration: none;
 }
 
@@ -172,6 +154,10 @@ footer h6 {
   width: 80%;
 }
 
+.vid-text{
+  color: blue;
+}
+
 @media (max-width: 800px) {
   .mobile-video-container-main {
     overflow: hidden;
@@ -208,8 +194,6 @@ footer h6 {
   .brand-description{
     text-align: center;
   }
-
-
 
 .cards {
   width: 100vw;

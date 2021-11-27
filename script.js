@@ -15,7 +15,7 @@ $(document).ready(function () {
 
   const mailto = $(".mailto-link");
   const messageCopy = "";
-  const messageSuccess = "<br>Copied to Clipboard</br>";
+  const messageSuccess = " (Copied to Clipboard)";
 
   mailto.append('<span class="mailto-message"></span>');
   $(".mailto-message").append(messageCopy);
@@ -38,7 +38,6 @@ $(document).ready(function () {
   });
 });
 
-// Grabbed this from Stack Overflow.
 // Copies the email variable to clipboard
 function copyToClipboard(text) {
   const dummy = document.createElement("input");
@@ -64,12 +63,6 @@ $(function () {
       row.addClass("visible");
       return;
     }
-
-    // if (row.hasClass('visible') &&
-    //     $window.scrollTop() + pad < row.offset().top) {
-    //   row.removeClass('visible');
-    //   return;
-    // }
   });
 
   var row2 = $(".zlhomeAnimate2");
@@ -86,12 +79,6 @@ $(function () {
       row2.addClass("visible");
       return;
     }
-
-    // if (row2.hasClass('visible') &&
-    //     $window.scrollTop() + pad < row2.offset().top) {
-    //   row2.removeClass('visible');
-    //   return;
-    // }
   });
 });
 
