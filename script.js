@@ -9,13 +9,11 @@ toggleButton.addEventListener("click", () => {
 // Copy Email
 
 $(document).ready(function () {
-  // Add class to mailto link
-  // Needed to separate the disabling of the default action AND copy email to clipboard
   $("a[href^=mailto]").addClass("mailto-link");
 
   const mailto = $(".mailto-link");
   const messageCopy = "";
-  const messageSuccess = " (Copied to Clipboard)";
+  const messageSuccess = "<br>(Copied to Clipboard)";
 
   mailto.append('<span class="mailto-message"></span>');
   $(".mailto-message").append(messageCopy);

@@ -1,8 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 
 }
+
 
 h1 {
   font-family: "Josefin Sans";
